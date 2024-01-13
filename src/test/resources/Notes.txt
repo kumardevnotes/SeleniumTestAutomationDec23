@@ -1,0 +1,11 @@
+How to pull or download latest code from Trainer’s repo to my Mac ?
+
+Right click on project and open terminal and execute below 3 commands back to back
+
+git reset —hard
+git fetch origin
+git pull
+
+And refresh the project and then you can see the latest changes from trainer
+
+git clean -d -f
