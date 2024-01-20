@@ -1,4 +1,4 @@
-package com.java.variables;
+package com.java.variables.demo;
 
 public class JavaVariablesDemo {
 	/*
