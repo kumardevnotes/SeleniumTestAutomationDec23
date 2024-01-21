@@ -4,7 +4,7 @@ public class SwitchDemo {
 
 	public static void main(String[] args) {
 
-		String day = "Tuesday";
+		String day = "Sunday";
 
 		switch (day) {
 		case "Monday":
@@ -27,6 +27,7 @@ public class SwitchDemo {
 			break;
 		case "Sunday":
 			System.out.println("Its Sunday and weekend");
+			break;
 		default:
 			System.out.println("Please pass a valid day!");
 		}

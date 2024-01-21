@@ -34,7 +34,7 @@ public class ForloopDemoII {
 //		
 //		System.out.println(empIds[empIds.length-1]); //index of the last value or element in the array
 		
-		
+		//If you want to run the same statement repeatedly based on some condition, we use forloop
 		for (int i = 0; i < empIds.length; i++) {  // 20; 
 			System.out.println(empIds[i]); //empIds[4]
 		}
