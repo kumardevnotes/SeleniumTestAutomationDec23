@@ -18,7 +18,11 @@ public class JavaContsructorDemo {
 	}
 
 	public static void main(String[] args) {
+		
+		//creating a class object as shown below
+		//below is a standard expression to create object of class
 		JavaContsructorDemo object1 = new JavaContsructorDemo();
+		
 		object1.displayEmpFulName("Tom", "Cruise");
 		object1.displayEmpId();
 		
