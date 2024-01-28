@@ -9,6 +9,11 @@ public class StdClass2 extends SchoolClass { // 2 + 2 --> 4 methods
 		
 		object1.displaySchoolName("Model Public High School");
 		object1.displaySchoolAddress();
+		
+		System.out.println(object1.getSchoolLocation()); //NewJersy
+		
+//		int income  = object1.getAnnualIncomeOfSchool();
+//		System.out.println(income);
 	
 	}
 	
