@@ -1,4 +1,4 @@
-package com.exception.handling.demo;
+package com.file.io.demo;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
