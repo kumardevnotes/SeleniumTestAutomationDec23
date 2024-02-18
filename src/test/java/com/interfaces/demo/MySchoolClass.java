@@ -30,10 +30,10 @@ public class MySchoolClass extends SchoolInterface{
 	System.out.println("RegId: " + ID);
 	}
 	/*
-	 * what is Method overriding in Java ?
+	 * what is Method over-riding in Java ?
 	 * If you have same method name with same param list in Child and Parent classes,
-	 *  then it is called method overiring in Java
-	 * If you create object of a child class and call this overriden method,
+	 *  then it is called method over-riding in Java
+	 * If you create object of a child class and call this over-riden method,
 	 *  then the child class method is called but not Parent class method
 	 * 
 	 * */
