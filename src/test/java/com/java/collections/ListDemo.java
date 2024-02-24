@@ -1,9 +1,8 @@
 package com.java.collections;
-
 import java.util.ArrayList; // ArrayList is a class in java.util package
 import java.util.List; // List is an interface in java.util package
 
-public class CollectionsDemo {
+public class ListDemo {
 
 	public static void main(String[] args) {
 		/*Write  a simple java program to store empDetails such as 
@@ -31,30 +30,36 @@ public class CollectionsDemo {
 		empDetails.add("Newyork");
 		empDetails.add('M');
 		empDetails.add("John Legend");
-		empDetails.add(0, "100$"); // add() is overloaded in List collection
 		
-		System.out.println(empDetails);
+		empDetails.add(2, "100$"); // add() is overloaded in List collection
 		
-		empDetails.remove(3);
-		empDetails.remove("Newyork");
+		System.out.println(empDetails.get(1));
 		
-		System.out.println(empDetails.contains("Newjersy")); // false
-		
-		//empDetails.clear(); // clear will remove all the data in List collection
-		
-		
-		System.out.println(empDetails);
-		
+//		System.out.println(empDetails);
+//		
+//		empDetails.remove(3);
+//		empDetails.remove("Newyork");
+//		
+//		System.out.println(empDetails.contains("Newjersy")); // false
+//		
+//		//empDetails.clear(); // clear will remove all the data in List collection
+//		
+//		
+//		System.out.println(empDetails);
+//		
 		List empAdditionalDetails =  new ArrayList(); 
 		empAdditionalDetails.add("2Kids");
 		empAdditionalDetails.add("Insured");
 		
 		empDetails.addAll(empAdditionalDetails);
-		System.out.println(empDetails);
+		//System.out.println(empDetails);
 		
-//		for(Object object : empDetails) {
-//			System.out.println(object);
-//		}
+		for(Object object : empDetails) {
+			System.out.println(object);
+		}
+		
+		System.out.println("**************");
+		System.out.println(empDetails.size());
 		
 	}
 
