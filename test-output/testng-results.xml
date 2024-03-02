@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-25T22:01:37 IST" name="Default suite" finished-at="2024-02-25T22:01:37 IST" duration-ms="41">
+  <suite started-at="2024-03-02T23:05:49 IST" name="Suite1" finished-at="2024-03-02T23:05:57 IST" duration-ms="8657">
     <groups>
     </groups>
-    <test started-at="2024-02-25T22:01:37 IST" name="Default test" finished-at="2024-02-25T22:01:37 IST" duration-ms="41">
-      <class name="com.testng.demo.GmailTest">
-        <test-method signature="gmailInValidLoginCheck()[pri:1, instance:com.testng.demo.GmailTest@58695725]" started-at="2024-02-25T22:01:37 IST" name="gmailInValidLoginCheck" finished-at="2024-02-25T22:01:37 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-03-02T23:05:49 IST" name="LoginCheck" finished-at="2024-03-02T23:05:57 IST" duration-ms="8657">
+      <class name="com.testng.demo.CrossBrowserWithParams">
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.testng.demo.CrossBrowserWithParams@2794eab6]" started-at="2024-03-02T23:05:49 IST" name="launchApp" finished-at="2024-03-02T23:05:57 IST" duration-ms="8616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gmailInValidLoginCheck -->
-      </class> <!-- com.testng.demo.GmailTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.testng.demo.CrossBrowserWithParams -->
+    </test> <!-- LoginCheck -->
+  </suite> <!-- Suite1 -->
 </testng-results>

@@ -4,13 +4,15 @@ import org.testng.annotations.Test;
 
 public class FacebookTest {
  
-  @Test (priority=2)
-  public void facebookValidLoginCheck() {
-	  System.out.println("Facebook login is verified with valid logins");
+  @Test (groups = { "homepage"})
+  public void facebookAppLogoCheck() throws Exception {
+	  System.out.println("facebookAppLogoCheck is verified without issues");
+	  Thread.sleep(1000);
   }
   
-  @Test (enabled=false)
-  public void facebookInValidLoginCheck() {
+  @Test  (groups = { "login"})
+  public void facebookInValidLoginCheck() throws Exception {
 	  System.out.println("Facebook login is verified with Invalid logins");
+	  Thread.sleep(1000);
   }
 }

@@ -21,7 +21,7 @@ public class ArraysDemo {
 			}
 
 		for(String bharath:cities);
-		System.out.println(cities);
+		//System.out.println(cities);
 		
    // Capacity of the empIncentives array is 3. Means it stores only 3 values and not more than that
 		
