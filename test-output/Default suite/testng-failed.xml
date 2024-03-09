@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng.demo.TestNGDataProviderDemo">
         <methods>
-          <include name="verifyAppLogin"/>
+          <include name="verifyAppLogin" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.testng.demo.TestNGDataProviderDemo -->
     </classes>

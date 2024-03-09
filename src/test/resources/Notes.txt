@@ -9,3 +9,14 @@ git pull
 And refresh the project and then you can see the latest changes from trainer
 
 git clean -d -f
+
+Tools to be used by Testers or Automation developers:
+
+1. Excel
+2. Jira
+3. Eclipse
+4. Java coding basics
+5. TestNG
+6. Selenium
+7. Maven
+
