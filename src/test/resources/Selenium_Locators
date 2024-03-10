@@ -1,0 +1,30 @@
+Selenium Locators:
+
+id -  completed
+name -  completed
+className -  completed
+tagName - completed
+linkText -  completed
+partialLinkText - completed
+
+xPath - is a maechanis to locate the element on the screen or webpage uniquely and it is of 2 ways
+
+   absolute xpath -- /html/body/div[1]/div[2]/div[1]/form/p[1]/input -  less used
+   
+   relative xpath -- starts with //
+   
+      //input[@id='email_input'] ---> Attribute based xpath
+      //input[@name='email'] ---> Attribute based xpath
+      
+      (//input[@id])[1] -  index based xpath
+      
+      //h1[.='Phrase guides'] -  exact text based xpath
+      //h1[text()='Phrase guides'] -  exact text based xpath
+      
+      //h1[contains(text(),'Phrase guides')] -  partial text based xpath
+      
+      //h1[.='Phrase guides']/..  child to parent
+      
+      //div[@id='resources']/h1  parent to child
+
+CSSSelector

@@ -20,3 +20,8 @@ Tools to be used by Testers or Automation developers:
 6. Selenium
 7. Maven
 
+
+to push the code into repo OR to check-in the code 
+
+to pull the code from repo OR to check-out the code from repo
+
