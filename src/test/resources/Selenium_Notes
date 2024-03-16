@@ -1,0 +1,83 @@
+Selenium Locators:
+
+id -  completed
+name -  completed
+className -  completed
+tagName - completed
+linkText -  completed
+partialLinkText - completed
+
+xPath - is a maechanis to locate the element on the screen or webpage uniquely and it is of 2 ways
+
+   absolute xpath -- /html/body/div[1]/div[2]/div[1]/form/p[1]/input -  less used
+   
+   relative xpath -- starts with //
+   
+      //input[@id='email_input'] ---> Attribute based xpath
+      //input[@name='email'] ---> Attribute based xpath
+      
+      (//input[@id])[1] -  index based xpath
+      
+      //h1[.='Phrase guides'] -  exact text based xpath
+      //h1[text()='Phrase guides'] -  exact text based xpath
+      
+      //h1[contains(text(),'Phrase guides')] -  partial text based xpath
+      
+      //h1[.='Phrase guides']/..  child to parent
+      
+      //div[@id='resources']/h1  parent to child
+
+CSSSelector
+
+
+Selenium Methods:
+
+get(String url) --> This method launches your application
+maximize() --> This method will maximize the browser
+navigate().back() --> this method navigates back the browser
+navigate().forward() --> this method navigates forwards the browser
+navigate().refresh() --> this method refreshed the browser
+
+
+Dimension dimension = new Dimension(1920, 1080);
+setSize(dimension) --> This method will resie the window depending on the dimensions passed
+
+newWindow(WindowType.TAB) --> // Opens a new tab and switches to new tab
+
+getWindowHandle()-->
+getWindowHandles()-->
+switchToWindow()-->
+
+close() --> It will close current window
+quit() --> It will close all opned windows
+
+clear()-->we clear the text in text field
+sendKeys(String value) --> This method is used to pass the string value into a text field
+click() --> Used to click on a given element
+
+getText() --> This method is sued to get the text on the screen or web page
+getAttribute() 	--> This method is used to get the attribute val 
+getTitle() --> To get the title of the web page
+getCurrentUrl() ---> This method gives the page Url
+
+isDisplayed()
+isEnabled()
+isSelected()
+
+JavascriptExecutor - Used this in ScrollToElement example
+Actions class in Selenium
+mouseHover() --> 
+dragDrop() --> Drag from source and drop it in destination
+Alert.accept()-->
+Alert.dismiss()-->
+
+findElement()-->
+// Resume on the below methods explanation next week, 16/17 september
+findElements()-->
+Select class in Selenium
+SelectByIndex()-->
+SelectBYValue()-->
+SelectByVisibleText()-->
+capture screenshot
+
+//Implicit and ExplicitWaits ****

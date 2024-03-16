@@ -35,24 +35,31 @@ public class SeleniumDemo1 {
 		
 		
 		boolean phraseGuidesTextdisplayed  = driver.findElement(By.xpath("//h1[.='Phrase guides']")).isDisplayed();
-		System.out.println(phraseGuidesTextdisplayed);
 		
+		phraseGuidesTextdisplayed =  false;
+	 
+		if(phraseGuidesTextdisplayed) {
+			System.out.println("PhraseGuides displayed on the screen");
+		}
+		else {
+			System.out.println("PhraseGuides not displayed on the screen");
+		}
 		
-		//Absolute xpath
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/form/p[1]/input")).sendKeys("ktest@gmail.com");
-
-		
-		driver.findElement(By.name("password")).sendKeys("pwd#112244");
-		
-		driver.findElement(By.id("email_1")).click();
-		Thread.sleep(3000);
-		
-		boolean displayedorNot  = driver.findElement(By.className("error_message")).isDisplayed();
-		
-		//using tagName locator
-		//driver.findElement(By.tagName("li")).click();
-		
-		System.out.println(displayedorNot);
+//		//Absolute xpath
+//		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/form/p[1]/input")).sendKeys("ktest@gmail.com");
+//
+//		
+//		driver.findElement(By.name("password")).sendKeys("pwd#112244");
+//		
+//		driver.findElement(By.id("email_1")).click();
+//		Thread.sleep(3000);
+//		
+//		boolean displayedorNot  = driver.findElement(By.className("error_message")).isDisplayed();
+//		
+//		//using tagName locator
+//		//driver.findElement(By.tagName("li")).click();
+//		
+//		System.out.println(displayedorNot);
 		
 		driver.quit();
   }
