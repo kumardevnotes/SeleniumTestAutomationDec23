@@ -52,8 +52,6 @@ switchToWindow()-->
 close() --> It will close current window
 quit() --> It will close all opned windows
 
-
-***************
 clear()-->we clear the text in text field
 sendKeys(String value) --> This method is used to pass the string value into a text field
 click() --> Used to click on a given element
@@ -67,12 +65,12 @@ isDisplayed()
 isEnabled()
 isSelected()
 
-**************
+..................
 
 JavascriptExecutor - Used this in ScrollToElement example
 Actions class in Selenium
 mouseHover() --> 
-dragDrop() --> Drag from source and drop it in destination
+*****dragDrop() --> Drag from source and drop it in destination
 Alert.accept()-->
 Alert.dismiss()-->
 
