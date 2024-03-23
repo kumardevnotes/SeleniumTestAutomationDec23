@@ -8,7 +8,10 @@ public class HomePage {
 	
 	WebDriver driver = null;
 	
-
+	public HomePage(WebDriver driver) {
+		this.driver =  driver;
+	}
+	
 	public void verifyTitle() {
 		String homePagetitle  = driver.getTitle();
 		Assert.assertEquals(homePagetitle, "Speak Languages — Learn a new language online");
