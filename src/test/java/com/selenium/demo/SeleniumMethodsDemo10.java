@@ -12,7 +12,7 @@ public class SeleniumMethodsDemo10 {
 		driver.manage().window().maximize();
 		driver.get("https://www.speaklanguages.com");
 		
-		String textCaptured  = driver.findElement(By.xpath("//div[@id='community']/h1")).getText();
+		String textCaptured  = driver.findElement(By.xpath("//p[@class='site_link']//a")).getText();
 		System.out.println(textCaptured);
 		System.out.println(textCaptured.toLowerCase());
 		

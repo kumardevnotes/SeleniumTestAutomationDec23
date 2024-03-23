@@ -74,13 +74,19 @@ mouseHover() -->
 Alert.accept()-->
 Alert.dismiss()-->
 
-findElement()-->
+******************************
+
+findElement()--> This method is used to locate an element in the Web page.
 // Resume on the below methods explanation next week, 16/17 september
+
 findElements()-->
-Select class in Selenium
+
+Select class in Selenium used to select a particular element from a dropdown
 SelectByIndex()-->
 SelectBYValue()-->
 SelectByVisibleText()-->
+
 capture screenshot
+****************************
 
 //Implicit and ExplicitWaits ****
