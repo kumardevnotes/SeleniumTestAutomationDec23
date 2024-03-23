@@ -25,3 +25,10 @@ to push the code into repo OR to check-in the code
 
 to pull the code from repo OR to check-out the code from repo
 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+What is a real time automation project ? And why is it needed for Selenium ?
+
+how is this helpful for my team or the application which is under development ?
+

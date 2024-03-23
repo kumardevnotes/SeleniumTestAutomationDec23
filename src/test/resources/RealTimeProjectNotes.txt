@@ -1,0 +1,32 @@
+
+TestData:
+
+Application:https://www.speaklanguages.com
+Browser: Chrome
+UserEmailID: johnnitesh2@gmail.com
+Password: Testing@123
+UserName: John
+
+Step1: Before you start automation, figure out the manual TCs (This is done by Manual testing people but not Automation people)
+	TC1: verifyHomePage
+	TC2: verifyAppLogin
+	TC3: verifySignup
+	
+TC1: verifyHomePage
+   1. Launch App in Chrome https://www.speaklanguages.com
+   2. Verify homepage title, applogo, search field, search button, login &signup links and headers
+
+TC2: verifyAppLogin
+	1. Launch App in Chrome https://www.speaklanguages.com
+	2. Launch login page
+	3. verify user is able to login with given emailId & password
+
+TC3: verifySignup
+	1. Launch App in Chrome https://www.speaklanguages.com
+	2. Launch singup page
+	3. fill the signup form and submit
+	4. verify singup success message
+	
+	
+	POM.xml - Project Object Model xml document
+	POM -  Page Object Model in automation -  It is a concept or theory in automation

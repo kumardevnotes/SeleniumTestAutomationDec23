@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T20:30:16 IST" name="Default suite" finished-at="2024-03-23T20:30:21 IST" duration-ms="5105">
+  <suite started-at="2024-03-23T21:44:01 IST" name="Default suite" finished-at="2024-03-23T21:44:17 IST" duration-ms="15142">
     <groups>
     </groups>
-    <test started-at="2024-03-23T20:30:16 IST" name="Default test" finished-at="2024-03-23T20:30:21 IST" duration-ms="5105">
-      <class name="com.selenium.demo.SeleniumMethodsDemo13">
-        <test-method signature="secondTest()[pri:0, instance:com.selenium.demo.SeleniumMethodsDemo13@791f145a]" started-at="2024-03-23T20:30:16 IST" name="secondTest" finished-at="2024-03-23T20:30:21 IST" duration-ms="5062" status="PASS">
+    <test started-at="2024-03-23T21:44:01 IST" name="Default test" finished-at="2024-03-23T21:44:17 IST" duration-ms="15142">
+      <class name="com.app.tests.ApplicationTests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:01 IST" name="beforeMethod" finished-at="2024-03-23T21:44:07 IST" duration-ms="5501" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTest -->
-      </class> <!-- com.selenium.demo.SeleniumMethodsDemo13 -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAppLogin()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:07 IST" name="verifyAppLogin" finished-at="2024-03-23T21:44:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:07 IST" name="afterMethod" finished-at="2024-03-23T21:44:07 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:07 IST" name="beforeMethod" finished-at="2024-03-23T21:44:12 IST" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:12 IST" name="verifyHomePage" finished-at="2024-03-23T21:44:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:12 IST" name="afterMethod" finished-at="2024-03-23T21:44:12 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:12 IST" name="beforeMethod" finished-at="2024-03-23T21:44:16 IST" duration-ms="4635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySignup()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:16 IST" name="verifySignup" finished-at="2024-03-23T21:44:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignup -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.app.tests.ApplicationTests@1a942c18]" started-at="2024-03-23T21:44:16 IST" name="afterMethod" finished-at="2024-03-23T21:44:17 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.app.tests.ApplicationTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
