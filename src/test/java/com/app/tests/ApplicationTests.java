@@ -33,15 +33,21 @@ public class ApplicationTests {
 
 	@Test
 	public void verifyHomePage() {
-		
+		homePage.verifyTitle();
+		homePage.verifHomePageObjects();
+		homePage.verifyApplogo();
 	}
 
 	@Test
-	public void verifyAppLogin() {
+	public void verifyAppLogin() throws Exception {
+		homePage.launchLoginPage();
+		loginPage.verifyLogin();
 	}
 
 	@Test
-	public void verifySignup() {
+	public void verifySignup() throws Exception {
+		homePage.launchSignUpPage();
+		singUpPage.verifySignup();
 	}
 
 	@AfterMethod

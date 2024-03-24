@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.demo.AlertsDemo14">
+      <class name="com.app.tests.ApplicationTests">
         <methods>
-          <include name="secondTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyHomePage"/>
+          <include name="beforeMethod"/>
+          <include name="verifySignup"/>
         </methods>
-      </class> <!-- com.selenium.demo.AlertsDemo14 -->
+      </class> <!-- com.app.tests.ApplicationTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

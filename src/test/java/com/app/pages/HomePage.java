@@ -14,12 +14,14 @@ public class HomePage {
 	
 	public void verifyTitle() {
 		String homePagetitle  = driver.getTitle();
-		Assert.assertEquals(homePagetitle, "Speak Languages — Learn a new language online");
+		Assert.assertEquals(homePagetitle, "Speak All Languages — Learn a new language online", "homepage title verification failed. Please check!");
+		System.out.println("homepage title verified");
 	}
 
 	public void verifyApplogo() {
 		boolean isLogoDisplayed = driver.findElement(By.id("logo")).isDisplayed();
-		Assert.assertEquals(isLogoDisplayed, true);
+		Assert.assertEquals(isLogoDisplayed, true, "homepage logo verification failed");
+		System.out.println("homepage logo verified");
 	}
 
 	public void verifHomePageObjects() {
@@ -34,6 +36,7 @@ public class HomePage {
 				&&isLoginLinkDisplayed && isSignupLinkDisplayed
 				&&isHeader1Displayed &&isHeader2Displayed,
 				true);
+		System.out.println("homepage objects verified");
 	}
 
 	public void launchLoginPage() {

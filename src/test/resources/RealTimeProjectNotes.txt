@@ -29,4 +29,9 @@ TC3: verifySignup
 	
 	
 	POM.xml - Project Object Model xml document
-	POM -  Page Object Model in automation -  It is a concept or theory in automation
+	
+	
+	POM - it is abest practice that we follow in automation
+	POM - stands for Page Object Model -  It is a concept or theory in automation
+	
+	

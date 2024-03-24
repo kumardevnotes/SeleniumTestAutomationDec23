@@ -18,7 +18,7 @@ public class SignUpPage {
 		driver.findElement(By.id("first_name")).sendKeys("Tom");
 		driver.findElement(By.name("last_name")).sendKeys("Cruise");
 		driver.findElement(By.name("email")).sendKeys("Testing545454545454@gmail.com");
-		driver.findElement(By.name("password")).sendKeys("PWD#1122");
+		driver.findElement(By.name("password")).sendKeys("Returns001122");
 		
 		WebElement genderOrSex = driver.findElement(By.name("sex"));
 		Select genderOrSexDropdown =  new Select(genderOrSex);
