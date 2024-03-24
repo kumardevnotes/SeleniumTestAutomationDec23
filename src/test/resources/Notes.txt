@@ -1,10 +1,21 @@
-How to pull or download latest code from Trainer’s repo to my Mac ?
 
-Right click on project and open terminal and execute below 3 commands back to back
 
-git reset --hard
-git fetch origin
-git pull
+***How to pull or download or check-out latest code from Trainer’s repository to my local ?
+1. Open your project in eclipse
+2. Right click on the project and open terminal and execute below 3 commands back to back
+
+	git reset --hard  --> This will delete your local changes
+	git fetch origin --> This will being all the latest changes from repo to your local but it will not download them
+	git pull -->  It will download all the changes and try to update in your project
+	
+***How to push or check-in the code from local to repository ?
+ 1. Open your project in eclipse
+ 2. Right click on the project and open terminal and execute below 3 commands back to back  
+   
+    git status --> This will give the changes you made since your last commit
+    git add --all --> This will select or add or stage all the files that you added or modified since your last commit
+    git commit -m "you need to describe the changes that you are pushing"
+    git push --> This will push the changes that you staged in Line 16 into repository
 
 And refresh the project and then you can see the latest changes from trainer
 
