@@ -7,7 +7,7 @@ import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class SeleniumMethodsDemo7 {
+public class SeleniumMethodsDemo7A {
 	@Test
 	public void secondTest() throws Exception {
 		WebDriver driver = new ChromeDriver();
