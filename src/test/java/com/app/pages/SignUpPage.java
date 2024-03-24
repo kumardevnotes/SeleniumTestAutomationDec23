@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import com.github.javafaker.Faker;
+
+
 public class SignUpPage {
 
 	WebDriver driver = null;
@@ -15,9 +18,20 @@ public class SignUpPage {
 	}
 	
 	public void verifySignup() throws Exception {
-		driver.findElement(By.id("first_name")).sendKeys("Tom");
-		driver.findElement(By.name("last_name")).sendKeys("Cruise");
-		driver.findElement(By.name("email")).sendKeys("Testing545454545454@gmail.com");
+		
+		Faker faker = new Faker();
+		String firstName  = faker.name().firstName();
+		String lastName  = faker.name().lastName();
+		String emailAddress  = faker.internet().emailAddress();
+		
+		System.out.println(firstName);
+		System.out.println(lastName);
+		System.out.println(emailAddress);
+		
+		
+		driver.findElement(By.id("first_name")).sendKeys(firstName);
+		driver.findElement(By.name("last_name")).sendKeys(lastName);
+		driver.findElement(By.name("email")).sendKeys(emailAddress);
 		driver.findElement(By.name("password")).sendKeys("Returns001122");
 		
 		WebElement genderOrSex = driver.findElement(By.name("sex"));

@@ -5,6 +5,7 @@
     <classes>
       <class name="com.app.tests.ApplicationTests">
         <methods>
+          <include name="verifyAppLogin"/>
           <include name="afterMethod"/>
           <include name="verifyHomePage"/>
           <include name="beforeMethod"/>

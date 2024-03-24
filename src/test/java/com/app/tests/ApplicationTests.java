@@ -44,7 +44,7 @@ public class ApplicationTests {
 		loginPage.verifyLogin();
 	}
 
-	@Test
+	@Test (invocationCount  = 3)
 	public void verifySignup() throws Exception {
 		homePage.launchSignUpPage();
 		singUpPage.verifySignup();
