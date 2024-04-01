@@ -1,0 +1,26 @@
+  void verifyTextFromPDFsInDirectory(String directoryPath, String keyword) {
+        def directory = new File(directoryPath)
+        if (directory.isDirectory()) {
+            def files = directory.listFiles({ file -> file.name.toLowerCase().endsWith(".pdf") } as FileFilter)
+            if (files) {
+                files.each { file ->
+                    try {
+                        def pdfContent = displayPDFContent(file.absolutePath, keyword)
+                        if (pdfContent) {
+                            println("Keyword found in file: ${file.name}")
+                            // You might want to break out of the loop if you only want to find the first occurrence
+                        } else {
+                            println("Keyword not found in file: ${file.name}")
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace()
+                        println("Caught an exception while processing file ${file.name}: ${e}")
+                    }
+                }
+            } else {
+                println("No PDF files found in directory: ${directoryPath}")
+            }
+        } else {
+            println("Provided path is not a directory: ${directoryPath}")
+        }
+    }
